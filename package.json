@@ -1,0 +1,17 @@
+{
+  "name": "cicd-node-app",
+  "version": "1.0.0",
+  "description": "A sample app for our CI/CD project.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.1",
+    "supertest": "^6.1.6"
+  }
+}
